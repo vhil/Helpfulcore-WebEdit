@@ -24,6 +24,11 @@ namespace Helpfulcore.WebEdit
             {
                 var contextItem = Sitecore.Context.Item;
 
+                if (contextItem == null)
+                {
+                    return;
+                }
+
                 if (this.ItemReferences.ContainsKey(contextItem.ID.Guid))
                 {
                     if (!this.ItemReferences[contextItem.ID.Guid].ContainsKey(itemId))

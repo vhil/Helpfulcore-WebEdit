@@ -46,7 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Events\PublishEnd\ItemReferencesPurgeProcessor.cs" />
+    <Compile Include="Events\PublishEnd\ItemReferencesEventHandler.cs" />
     <Compile Include="IItemReferenceCollection.cs" />
     <Compile Include="ItemReferenceCollection.cs" />
     <Compile Include="Pipelines\GetChromeData\EditFrameCollectItemReferences.cs" />
