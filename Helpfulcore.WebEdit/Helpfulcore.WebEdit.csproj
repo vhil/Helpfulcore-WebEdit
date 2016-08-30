@@ -51,7 +51,9 @@
     <Compile Include="ItemReferenceCollection.cs" />
     <Compile Include="Pipelines\GetChromeData\EditFrameCollectItemReferences.cs" />
     <Compile Include="Pipelines\GetItemReferences\FromEditableFields.cs" />
+    <Compile Include="Pipelines\RenderField\AddBeforeAndAfterValues.cs" />
     <Compile Include="Pipelines\RenderField\CollectItemReferences.cs" />
+    <Compile Include="Pipelines\RenderField\RenderWebEditing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
