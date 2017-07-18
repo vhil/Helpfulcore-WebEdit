@@ -27,7 +27,7 @@ namespace Helpfulcore.WebEdit.Pipelines.GetChromeData
             return args != null && args.Item != null && !args.Aborted
                 && args.ChromeType != null && args.ChromeData != null
                 && "editFrame".Equals(args.ChromeType, StringComparison.OrdinalIgnoreCase)
-                && (Context.PageMode.IsPageEditor || Context.PageMode.IsPageEditorEditing);
+                && (Context.PageMode.IsExperienceEditor || Context.PageMode.IsExperienceEditorEditing);
         }
     }
 }
