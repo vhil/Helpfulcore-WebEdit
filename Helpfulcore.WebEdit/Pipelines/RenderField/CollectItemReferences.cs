@@ -26,7 +26,7 @@ namespace Helpfulcore.WebEdit.Pipelines.RenderField
         {
             return args != null && args.Item != null && !args.Aborted 
                 && !args.DisableWebEdit && !args.DisableWebEditContentEditing
-                && (Context.PageMode.IsPageEditor || Context.PageMode.IsPageEditorEditing);
+                && (Context.PageMode.IsExperienceEditor || Context.PageMode.IsExperienceEditorEditing);
         }
     }
 }
